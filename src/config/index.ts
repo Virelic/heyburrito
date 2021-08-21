@@ -40,7 +40,7 @@ const config = {
     production: {
         db: {
             db_driver: process.env.DATABASE_DRIVER || 'file',
-            db_fileName: 'burrito-prod.db',
+            db_fileName: 'banhmi-prod.db',
             db_path: process.env.DATABASE_PATH || `${root}data/`,
             db_url: (process.env.DATABASE_DRIVER === 'mongodb') ? mustHave('MONGODB_URL') : '',
             db_name: (process.env.DATABASE_DRIVER === 'mongodb') ? mustHave('MONGODB_DATABASE') : '',
@@ -82,7 +82,7 @@ const config = {
     development: {
         db: {
             db_driver: process.env.DATABASE_DRIVER || 'file',
-            db_fileName: 'burrito-dev.db',
+            db_fileName: 'banhmi-dev.db',
             db_path: process.env.DATABASE_PATH || `${root}data/`,
             db_url: (process.env.DATABASE_DRIVER === 'mongodb') ? mustHave('MONGODB_URL') : '',
             db_name: (process.env.DATABASE_DRIVER === 'mongodb') ? mustHave('MONGODB_DATABASE') : '',
@@ -124,7 +124,7 @@ const config = {
     testing: {
         db: {
             db_driver: process.env.DATABASE_DRIVER || 'file',
-            db_fileName: 'burrito-test.db',
+            db_fileName: 'banhmi-test.db',
             db_path: process.env.DATABASE_PATH || `${root}data/`,
             db_url: '',
             db_name: '',
