@@ -5,7 +5,7 @@ import UserInterface from '../types/User.interface';
 
 const root: string = path.normalize(`${__dirname}/../../`);
 const themeRootPath: string = `${root}www/themes/`;
-const defaultTheme: string = 'https://github.com/vunguyen7797/heyburrito-theme';
+const defaultTheme: string = 'https://github.com/chralp/heyburrito-theme';
 
 
 const time = () => {
